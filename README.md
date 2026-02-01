@@ -1,50 +1,35 @@
-# Welcome to your Expo app 👋
+# Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This mobile app is designed to help users manage their pantry and recipes efficiently. Users can view pantry items, search for items, and edit or delete existing entries. The app also allows for adding recipes and organizing ingredients, making meal planning and shopping more convenient.
 
-## Get started
+To use the app, users navigate through the bottom tab menu, which includes a Pantry view and a Recipes view. In the Pantry view, items can be searched, edited, or deleted. In the Recipes view, users can browse, view, and organize recipes. Each feature responds to user input in real-time and stores data locally so it persists even when the app is closed.
 
-1. Install dependencies
+The purpose of creating this app was to enhance my skills as a software engineer in building cross-platform mobile applications using React Native and Expo. This project helped to enhance my abilities to understand and execute core functionality, state management, and data persistence.
 
-   ```bash
-   npm install
-   ```
+# Development Environment
 
-2. Start the app
+The app was developed using Visual Studio Code and Expo to streamline cross-platform mobile development for both Android and iOS. I utilized Android Stuido, and setup an emulation for an Android device. I also downloaded the Expo GO app on iOS to test physically on an iPhone. 
 
-   ```bash
-   npx expo start
-   ```
+**Programming language:** TypeScript with React Native. 
 
-In the output, you'll find options to open the app in a
+**Libraries used:**  
+* `expo-router` for navigation  
+* `react-native` for UI components  
+* `@react-native-async-storage/async-storage` for local data persistence  
+* `uuid` for generating unique IDs for pantry items  
+* `@expo/vector-icons` for icons  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+# Useful Websites
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* [React Native Documentation](https://reactnative.dev/docs/getting-started) – official guide for React Native components and APIs  
+* [Expo Documentation](https://docs.expo.dev/) – guidance on using Expo features, navigation, and building apps  
+* [AsyncStorage Documentation](https://react-native-async-storage.github.io/async-storage/docs/install/) – for data persistence in React Native apps  
+* [UUID GitHub](https://github.com/uuidjs/uuid) – for generating unique identifiers in JavaScript/TypeScript  
 
-## Get a fresh project
+# Future Work
 
-When you're ready, run:
+* Add user authentication and cloud storage to sync data across devices.
 
-```bash
-npm run reset-project
-```
+* Improve the UI/UX design, including custom styling, animations, and better feedback for user actions.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* Implement advanced search and filtering options for pantry items and recipes, including lists and groups/categories.
