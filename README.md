@@ -30,6 +30,8 @@ The app was developed using Visual Studio Code and Expo to streamline cross-plat
 
 * Add user authentication and cloud storage to sync data across devices.
 
+* Add the ability to include photos/video of food and the cooking process.
+
 * Improve the UI/UX design, including custom styling, animations, and better feedback for user actions.
 
 * Implement advanced search and filtering options for pantry items and recipes, including lists and groups/categories.
