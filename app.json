@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Dishup-app",
+    "name": "DishUp!",
     "slug": "Dishup-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,9 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.jakepreciado.dishup",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
+      "package": "com.jakepreciado.dishup",
+      "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -43,6 +50,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "41d8b212-4d66-490f-936e-1028b3fcbd8a"
+      }
     }
   }
 }
